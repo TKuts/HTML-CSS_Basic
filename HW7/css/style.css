@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+.container {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 54px;
+}
+.logo {
+  margin: 18px 0px 18px 79px;
+}
+.icon-calendar:hover svg path {
+  fill: #01813f;
+}
+.icon-mail:hover svg path {
+  fill: #01813f;
+}
+.icon-compass:hover svg path {
+  fill: #01813f;
+}
+.logo-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.logo-text:hover {
+  color: #01813f;
+}
+.link-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.icon-header {
+  margin: 0 25px 0 750px;
+}
+.icon-mail {
+  margin: 0 26px;
+}
+.trait {
+  width: 1px;
+  height: 19px;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.5;
+}
+.header-text {
+  display: flex;
+  margin: 0 79px 0 27px;
+}
+.link-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 1px;
+  color: #ffffff;
+}
+.enter:hover {
+  color: #01813f;
+}
+.sing-up:hover {
+  color: #01813f;
+}
+
+.container .sing-up-form {
+  margin: 0 auto;
+  width: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+}
+.headre-form {
+  display: flex;
+  align-items: center;
+  margin: 28px 0 14px 0;
+}
+.tittle {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 216px;
+  /* text-align: center; */
+  color: #434343;
+}
+.cube {
+  border: 0;
+  margin: 0 42px 0 -2px;
+  width: 18px;
+  height: 18px;
+  background: #3cb878;
+}
+.log-in {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3cb878;
+  margin-right: 59px;
+  text-decoration: none;
+}
+.log-in:hover {
+  text-decoration: underline;
+}
+.btn {
+  display: flex;
+}
+.hr-btn {
+  width: 1px;
+  height: 28px;
+  background: #0a162f;
+  opacity: 0.1;
+  margin: 0 18px;
+}
+.btn-facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  margin-right: 8px;
+  background: #305db8;
+  text-decoration: none;
+}
+.btn-facebook:hover {
+  background-color: #022263;
+}
+.btn-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  background: #df4a32;
+  text-decoration: none;
+}
+.btn-google:hover {
+  background: #ab1f09;
+}
+.hr-btn-google {
+  width: 1px;
+  height: 28px;
+  background: #0a162f;
+  opacity: 0.1;
+  margin: 0 30px 0 7px;
+}
+.btn-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.space {
+  display: flex;
+  margin: 30px 0 12px;
+}
+.space-hr {
+  width: 152px;
+  height: 0px;
+  border: 1px solid #f2f2f2;
+}
+.text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #848484;
+  margin: 0 4px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-form {
+  width: 322px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #434343;
+}
+.input-form:focus {
+  background: #ffffff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+  border-radius: 4px;
+  outline: none;
+}
+.checkbox {
+  display: flex;
+  margin-left: -78px;
+  align-items: center;
+}
+.form .color {
+  color: #3cb878;
+}
+.form .color:hover {
+  color: #01813f;
+  text-decoration: underline;
+}
+.btn-create {
+  margin: 20px 0 38px;
+  background: rgba(60, 184, 120, 0.8);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-create:hover {
+  background: #01813f;
+  border-radius: 4px;
+}
+.create {
+  text-decoration: none;
+}
+.create-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 16px 108px;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  width: 1480px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+/* ---head----- */
+.logo-link {
+  display: flex;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+  margin: 63px 1048px 38px 98px;
+  text-decoration: none;
+}
+.color-logo-link {
+  color: #4bcaff;
+}
+.main-menu {
+  text-align: center;
+  width: 1283px;
+  margin: 0px 98px 48px 98px;
+  background: #35444f;
+}
+.main-menu .menu-item {
+  display: inline-block;
+  padding: 26px 33px 19px;
+  border-left: 1px solid #ffffff;
+  cursor: pointer;
+}
+.main-menu .menu-item .menu-link {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-menu-node {
+  border-right: 1px solid #ffffff;
+}
+.main-menu .menu-item:hover {
+  background: #222f3a;
+}
+/* ------------ */
+.left-menu {
+  width: 344px;
+  height: 399px;
+  margin-left: 98px;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 1px solid #000000;
+}
+.left-menu .menu-item {
+  cursor: pointer;
+  padding: 27px 0 27px 44px;
+}
+.left-menu .menu-link {
+  font-size: 27px;
+  color: #485863;
+  text-decoration: none;
+}
+.left-menu .menu-item:hover {
+  padding: 27px 0 27px 74px;
+  background: #dbdbdb;
+}
+/* ------------ */
+.containet {
+  display: flex;
+}
+.photo-and-text {
+  margin: 0px 0px 54px 52px;
+}
+.photo-border {
+  background: rgba(0, 0, 0, 0.0001);
+}
+.photo {
+  padding: 75px 268px 73px 297px;
+  justify-content: center;
+  border: 1px solid #000000;
+}
+.photo:hover {
+  width: 330px;
+  height: 391px;
+  padding: 70px 263px 68px 292px;
+}
+.main-text {
+  margin-top: 36px;
+  width: 885px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2c2c2c;
+}
+
+/* ------------ */
+.footer {
+  display: flex;
+  margin: 0px 100px 30px;
+  background: rgba(99, 105, 110, 0.48);
+}
+.footer-menu-item {
+  display: inline-block;
+  padding: 20px 0px 20px 40px;
+}
+.footer-menu-link {
+  font-size: 28px;
+  color: #0c1927;
+  text-decoration: none;
+}
+.footer-copyring {
+  font-size: 24px;
+  padding: 20px 0px 20px 40px;
+
+  color: #010101;
+}
+.footer-menu-link:hover {
+  color: #3181a6;
+  text-decoration: underline solid #3181a6;
+}

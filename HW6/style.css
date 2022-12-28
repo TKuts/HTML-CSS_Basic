@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url(./img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size img {
+  width: 300px;
+}
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.main-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 260px);
+  grid-column-gap: 61px;
+  grid-row-gap: 37px;
+  margin: 46px 188px 49px 165px;
+}
+.header-word-flex .link {
+  text-decoration: none;
+}
+.size .link {
+  text-decoration: none;
+}
+.first-card {
+  opacity: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.seconds-card {
+  opacity: 1;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.third-card {
+  opacity: 1;
+  grid-area: 1 / 3 / 2 / 4;
+}
+.fourth-card {
+  opacity: 1;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.fifth-card {
+  opacity: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.sixth-card {
+  opacity: 1;
+  grid-area: 2 / 3 / 3 / 4;
+}
+.header {
+  display: flex;
+  width: 1028px;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  width: 1028px;
+  margin: 46px 177px 17px 161px;
+}
+.logo-picture {
+  margin-right: 8px;
+}
+.header-logo {
+  display: flex;
+  text-decoration: none;
+}
+.header-word-flex {
+  display: flex;
+  flex-direction: column;
+}
+.header-first-word {
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 29px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.header-second-word {
+  width: 135px;
+  height: 21px;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: -160px;
+}
+.header-email {
+  margin-bottom: 19px;
+}
+.header-mobilephone {
+  margin-bottom: 17px;
+  margin-left: 73px;
+}
+.email {
+  width: 219px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.mobilephone {
+  width: 146px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 260px;
+}
+.main-cards-text {
+  bottom: 60px;
+  opacity: 1;
+  width: 140px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin: 20px 69px 0 86px;
+}
+.copyring {
+  width: 306px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  color: #ffffff;
+  margin: 0 530px 15px 530px;
+}
+/* ========== */
+.hover-card {
+  justify-content: center;
+  margin: 1px -2px 0 1px;
+  padding: 7px 14px 10px;
+  position: relative;
+  opacity: 0;
+  bottom: 101px;
+  background-color: #f26522;
+}
+.header-logo-hover {
+  position: absolute;
+  opacity: 0;
+  margin-top: -47px;
+}
+.from-cards {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.price-card {
+  width: 36px;
+  height: 14px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 8px 128px 0 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.details-card {
+  height: 14px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.details-card::after {
+  content: ">";
+  width: 5px;
+  height: 10px;
+  padding-left: 16px;
+}
+.sign {
+  width: 5px;
+  height: 10px;
+  color: #ffffff;
+}
+.header-mobilephone :hover {
+  color: #f26522;
+}
+.header-email :hover {
+  color: #f26522;
+}
+.logo:hover .header-first-word {
+  color: #f26522;
+}
+.logo:hover .header-second-word {
+  color: #f26522;
+}
+.logo:hover .header-logo-hover {
+  opacity: 2;
+}
+.first-card:hover .main-cards-text {
+  color: #f26522;
+}
+.first-card:hover .hover-card {
+  opacity: 2;
+}
+.seconds-card:hover .main-cards-text {
+  color: #f26522;
+}
+.seconds-card:hover .hover-card {
+  opacity: 2;
+}
+.third-card:hover .main-cards-text {
+  color: #f26522;
+}
+.third-card:hover .hover-card {
+  opacity: 2;
+}
+.fourth-card:hover .main-cards-text {
+  color: #f26522;
+}
+.fourth-card:hover .hover-card {
+  opacity: 2;
+}
+.fifth-card:hover .main-cards-text {
+  color: #f26522;
+}
+.fifth-card:hover .hover-card {
+  opacity: 2;
+}
+.sixth-card:hover .main-cards-text {
+  color: #f26522;
+}
+.sixth-card:hover .hover-card {
+  opacity: 2;
+}
